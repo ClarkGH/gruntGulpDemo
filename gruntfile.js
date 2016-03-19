@@ -5,7 +5,7 @@ module.exports = function( grunt ) {
     sass: {
       dist: {
         files: {
-          'sass/styles.scss': 'css/styles.css'
+          'src/sass/styles.scss': 'css/styles.css'
         }
       }
     },
@@ -22,7 +22,7 @@ module.exports = function( grunt ) {
  
     watch: {
       sass: {
-        files: 'sass/*.scss',
+        files: 'src/sass/*.scss',
         tasks: ['sass', 'autoprefixer'],
       }
     },

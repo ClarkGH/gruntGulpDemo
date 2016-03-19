@@ -1,0 +1,25 @@
+{
+  "name": "gruntgulp",
+  "version": "1.0.0",
+  "description": "## Gulp     1. Focuses on code     2. enforces nothing, all community developed micro-tasks     3. uses streams and builds complex pipelines     4. uses nodes     5. executes faster since it does not open or close files     6. uses a virtual file object called  Vinyl (abstraction)     7. gulp plugins try to do 1 thing well         1. complex tasks should involve multiple plugins     8. cult is less coupled than grunt since every plugin is a node streaming module     9. “One word of advice though is to try not to fit every piece of your code into a Gulp plugin. As this article points out, thinking of your code as a Gulp plugin would inevitably increase configuration, which is counter to what the Gulp guidelines, and the do one thing well philosophy suggest. This is where the code over configuration principle shines. Unlike Grunt, Gulp makes it extremely easy to fit other code within a task definition, besides streaming from one plugin to another. In fact, a Gulp task may not even contain a streaming pipeline”     10. Get started: https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkGH/gruntGulpDemo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClarkGH/gruntGulpDemo/issues"
+  },
+  "homepage": "https://github.com/ClarkGH/gruntGulpDemo#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0"
+  }
+}

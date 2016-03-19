@@ -4,7 +4,7 @@ var gulp = require('gulp'),
  
 // Styles
 gulp.task('styles', function() {
-  gulp.src('sass/styles.scss')
+  gulp.src('src/sass/styles.scss')
     .pipe(sass())
     .pipe(autoprefixer('last 1 version', '> 1%', 'ie 8', 'ie 7'))
     .pipe(gulp.dest('css'));
@@ -12,7 +12,7 @@ gulp.task('styles', function() {
  
 // Watch the sass files
 gulp.task('watch', function() {
-  gulp.watch('sass/*.scss', ['styles']);
+  gulp.watch('src/sass/*.scss', ['styles']);
 });
  
-gulp.task('default', ['styles, watch']);
+gulp.task('default', ['styles', 'watch']);
