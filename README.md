@@ -60,3 +60,4 @@ Both scripts compile css from sass from src/sass/styles.scss to css/styles.css
     5. grunt requires less time thinking about theory
     6. gulp is faster
     7. ultimately it comes down to preference
+    8. Grunt builds a lot of messy files
