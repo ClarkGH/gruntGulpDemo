@@ -11,6 +11,7 @@
         1. complex tasks should involve multiple plugins
     8. cult is less coupled than grunt since every plugin is a node streaming module
     9. “One word of advice though is to try not to fit every piece of your code into a Gulp plugin. As this article points out, thinking of your code as a Gulp plugin would inevitably increase configuration, which is counter to what the Gulp guidelines, and the do one thing well philosophy suggest. This is where the code over configuration principle shines. Unlike Grunt, Gulp makes it extremely easy to fit other code within a task definition, besides streaming from one plugin to another. In fact, a Gulp task may not even contain a streaming pipeline”
+    10. Get started: https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js
 
 var gulp = require('gulp');
      sass = require('gulp-sass');
@@ -37,6 +38,8 @@ gulp.task('default', ['styles, watch']);
     3. is relatively slower
     4. takes double the effort to create tasks with clean and concat
     5. builds temp files
+    6. Learn how to grunt here: http://gruntjs.com/getting-started
+
 
 module.exports = function(grunt) {
  
