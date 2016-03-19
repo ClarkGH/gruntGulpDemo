@@ -1,5 +1,36 @@
 # Grunt vs Gulp
 
+Here is a simple demo of running sass demo and autoprefixing with both grunt and gulp.
+
+The grunt buildscript is in gruntfile.js
+
+The gulp buildscript is in Gulpfile.js
+
+Both scripts compile css from sass from src/sass/styles.scss to css/styles.css
+
+## To Run
+
+### After cloning this repo
+
+    1. You will need node and npm installed.
+    2. Install the gulp cli
+    3. $ npm install - gulp-cli
+    4. Install the grunt cli 
+    5. $ npm install -g grunt-cli
+    6. Go to the project directory and type the following
+    7. $ npm install
+
+### Gulp
+    1. Type gulp in the root directory
+    2. See that styles.css now exists in the css directory
+    3. Delete the css/styles.css file after viewing it to see the changes the grunt files make
+
+
+### Grunt
+    1. Type grunt in the root directory
+    2. See that styles.css now exists in the css directory along with more files
+    3. Repeat step 3 for Gulp and delete the other extra files made if you feel inclined
+
 ## Gulp
     1. Focuses on code
     2. enforces nothing, all community developed micro-tasks
