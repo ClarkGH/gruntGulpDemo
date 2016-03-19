@@ -31,7 +31,7 @@ Both scripts compile css from sass from src/sass/styles.scss to css/styles.css
     2. See that styles.css now exists in the css directory along with more files
     3. Repeat step 3 for Gulp and delete the other extra files made if you feel inclined
 
-## Gulp
+## Gulp in a nutshell
     1. Focuses on code
     2. enforces nothing, all community developed micro-tasks
     3. uses streams and builds complex pipelines
@@ -44,7 +44,7 @@ Both scripts compile css from sass from src/sass/styles.scss to css/styles.css
     9. “One word of advice though is to try not to fit every piece of your code into a Gulp plugin. As this article points out, thinking of your code as a Gulp plugin would inevitably increase configuration, which is counter to what the Gulp guidelines, and the do one thing well philosophy suggest. This is where the code over configuration principle shines. Unlike Grunt, Gulp makes it extremely easy to fit other code within a task definition, besides streaming from one plugin to another. In fact, a Gulp task may not even contain a streaming pipeline”
     10. Get started: https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js
 
-## Grunt
+## Grunt in a nutshell
     1. Focuses on configuration
     2. Built around a set of built-in and commonly used tasks
     3. is relatively slower
